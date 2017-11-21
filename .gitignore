@@ -33,6 +33,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 pacman/.vs/pacman/v15/sqlite3/storage.ide
+pacman/Library/metadata/
 pacman/Library/assetDatabase3
 pacman/Library/assetDatabase3
 pacman/Library/AssetImportState
