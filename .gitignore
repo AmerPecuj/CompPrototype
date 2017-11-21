@@ -32,3 +32,15 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+pacman/.vs/pacman/v15/sqlite3/storage.ide
+pacman/Library/assetDatabase3
+pacman/Library/assetDatabase3
+pacman/Library/AssetImportState
+pacman/Library/EditorUserBuildSettings.asset
+pacman/Library/metadata/00/00000000000000001000000000000000
+pacman/Library/metadata/00/00000000000000002000000000000000
+pacman/Library/metadata/00/00000000000000002000000000000000.info
+pacman/Library/metadata/00/00000000000000003000000000000000
+pacman/Library/metadata/00/00000000000000003000000000000000.info
+pacman/Library/metadata/00/00000000000000004000000000000000
+pacman/Library/metadata/00/00000000000000004000000000000000.info
