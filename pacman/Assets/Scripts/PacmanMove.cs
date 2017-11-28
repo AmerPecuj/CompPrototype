@@ -9,7 +9,7 @@ public class PacmanMove : MonoBehaviour {
     Vector2 bulletPos;
     public float fireRate = 0.5f;
     float nextFire = 0.0f;
-    int facing = 0;
+    int facing = 1;
 
     void Start() {
         dest = transform.position;
