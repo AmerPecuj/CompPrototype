@@ -1,13 +1,15 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PacmanMove : MonoBehaviour {
     public float speed = 0.4f;
     Vector2 dest = Vector2.zero;
-    public GameObject =  BulletToRight, BulletToLeft;
+    public GameObject BulletToRight, BulletToLeft, BulletToUp, BulletToDown;
     Vector2 bulletPos;
     public float fireRate = 0.5f;
     float nextFire = 0.0f;
+    int facing = 0;
 
     void Start() {
         dest = transform.position;
@@ -27,14 +29,22 @@ void FixedUpdate() {
 
     // Check for Input if not moving
     if ((Vector2)transform.position == dest) {
-        if (Input.GetKey(KeyCode.UpArrow) && valid(Vector2.up))
+        if (Input.GetKey(KeyCode.UpArrow) && valid(Vector2.up)){
             dest = (Vector2)transform.position + Vector2.up;
-        if (Input.GetKey(KeyCode.RightArrow) && valid(Vector2.right))
+            facing = 3;
+          }
+        if (Input.GetKey(KeyCode.RightArrow) && valid(Vector2.right)){
             dest = (Vector2)transform.position + Vector2.right;
-        if (Input.GetKey(KeyCode.DownArrow) && valid(-Vector2.up))
+            facing = 1;
+          }
+        if (Input.GetKey(KeyCode.DownArrow) && valid(-Vector2.up)){
             dest = (Vector2)transform.position - Vector2.up;
-        if (Input.GetKey(KeyCode.LeftArrow) && valid(-Vector2.right))
+            facing = 4;
+          }
+        if (Input.GetKey(KeyCode.LeftArrow) && valid(-Vector2.right)){
             dest = (Vector2)transform.position - Vector2.right;
+            facing = 2;
+          }
     }
 // Animation Parameters
     Vector2 dir = dest - (Vector2)transform.position;
@@ -51,13 +61,22 @@ void FixedUpdate() {
 
     void fire() {
       bulletPos = transform.position;
-      if (facingRight) {
-        bulletPos += new Vector2 (-1f, -0.43f);
-        Instantiate (BulletToRight, bulletPos, Quaternion.identify);
-        } else {
-          bulletPos += new Vector2 (-1f, -0.43f);
-          Instantiate (BulletToLeft, bulletPos, Quaternion.identify);
+      if (facing == 1) {
+        // right
+        bulletPos += new Vector2 (+1f, 0f);
+        Instantiate (BulletToRight, bulletPos, Quaternion.Identify);
+      } else if (facing == 2) {
+        // left
+          bulletPos += new Vector2 (-1f, 0f);
+          Instantiate (BulletToLeft, bulletPos, Quaternion.Identify);
+        } else if (facing == 3) {
+          // up
+          bulletPos += new Vector2 (0f, +1f);
+          Instantiate (BulletToUp, bulletPos, Quaternion.Identify);
+        } else if (facing == 4) {
+          // down
+          bulletPos += new Vector2 (0f, -1f);
+          Instantiate (BulletToDown, bulletPos, Quaternion.Identify);
         }
       }
     }
-}
