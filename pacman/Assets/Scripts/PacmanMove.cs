@@ -16,7 +16,7 @@ public class PacmanMove : MonoBehaviour {
     }
 
     void Update() {
-      if (Input.GetButtonDown ("Fire1") && Time.time > nextFire) {
+      if (Input.GetKey(KeyCode.Space) && Time.time > nextFire) {
     nextFire = Time.time + fireRate;
     fire();
       }
@@ -64,19 +64,19 @@ void FixedUpdate() {
       if (facing == 1) {
         // right
         bulletPos += new Vector2 (+1f, 0f);
-        Instantiate (BulletToRight, bulletPos, Quaternion.Identify);
+        Instantiate (BulletToRight, bulletPos, Quaternion.identity);
       } else if (facing == 2) {
         // left
           bulletPos += new Vector2 (-1f, 0f);
-          Instantiate (BulletToLeft, bulletPos, Quaternion.Identify);
+          Instantiate (BulletToLeft, bulletPos, Quaternion.identity);
         } else if (facing == 3) {
           // up
           bulletPos += new Vector2 (0f, +1f);
-          Instantiate (BulletToUp, bulletPos, Quaternion.Identify);
+          Instantiate (BulletToUp, bulletPos, Quaternion.identity);
         } else if (facing == 4) {
           // down
           bulletPos += new Vector2 (0f, -1f);
-          Instantiate (BulletToDown, bulletPos, Quaternion.Identify);
+          Instantiate (BulletToDown, bulletPos, Quaternion.identity);
         }
       }
     }

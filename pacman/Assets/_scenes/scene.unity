@@ -9683,7 +9683,7 @@ MonoBehaviour:
   - {fileID: 1144026186}
   - {fileID: 2138004681}
   - {fileID: 532044152}
-  speed: 0.3
+  speed: 0.2
 --- !u!50 &596907401
 Rigidbody2D:
   serializedVersion: 4
@@ -25724,6 +25724,7 @@ MonoBehaviour:
   BulletToUp: {fileID: 1504820012188542, guid: d98a4365bbaa841e297552b2070b6c3b, type: 2}
   BulletToDown: {fileID: 1186940155807588, guid: f0e1b5647dddf41079d38df72b304d3a,
     type: 2}
+  fireRate: 0.5
 --- !u!50 &1452528405
 Rigidbody2D:
   serializedVersion: 4

@@ -19,4 +19,10 @@ public class BulletScript : MonoBehaviour {
 		rb.velocity = new Vector2(velX, velY);
 
 	}
+
+	void OnTriggerEnter2D(Collider2D co) {
+	    if (co.name == "blinky")
+	        Destroy(co.gameObject);
+	}
+
 }
