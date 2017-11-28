@@ -25717,6 +25717,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.4
+  BulletToRight: {fileID: 1627987197292196, guid: 67889e70b2a3a4b0180a2cc0cee6b6db,
+    type: 2}
+  BulletToLeft: {fileID: 1452561638441536, guid: 6c6aab7525387464f98ac038bfd02c27,
+    type: 2}
+  BulletToUp: {fileID: 1504820012188542, guid: d98a4365bbaa841e297552b2070b6c3b, type: 2}
+  BulletToDown: {fileID: 1186940155807588, guid: f0e1b5647dddf41079d38df72b304d3a,
+    type: 2}
 --- !u!50 &1452528405
 Rigidbody2D:
   serializedVersion: 4

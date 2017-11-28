@@ -4,9 +4,20 @@ using System.Collections;
 public class PacmanMove : MonoBehaviour {
     public float speed = 0.4f;
     Vector2 dest = Vector2.zero;
+    public GameObject =  BulletToRight, BulletToLeft;
+    Vector2 bulletPos;
+    public float fireRate = 0.5f;
+    float nextFire = 0.0f;
 
     void Start() {
         dest = transform.position;
+    }
+
+    void Update() {
+      if (Input.GetButtonDown ("Fire1") && Time.time > nextFire) {
+    nextFire = Time.time + fireRate;
+    fire();
+      }
     }
 
 void FixedUpdate() {
@@ -36,5 +47,17 @@ void FixedUpdate() {
         Vector2 pos = transform.position;
         RaycastHit2D hit = Physics2D.Linecast(pos + dir, pos);
         return (hit.collider == GetComponent<Collider2D>());
+    }
+
+    void fire() {
+      bulletPos = transform.position;
+      if (facingRight) {
+        bulletPos += new Vector2 (-1f, -0.43f);
+        Instantiate (BulletToRight, bulletPos, Quaternion.identify);
+        } else {
+          bulletPos += new Vector2 (-1f, -0.43f);
+          Instantiate (BulletToLeft, bulletPos, Quaternion.identify);
+        }
+      }
     }
 }
