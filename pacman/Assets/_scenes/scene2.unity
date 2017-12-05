@@ -31315,7 +31315,7 @@ MonoBehaviour:
   - {fileID: 1045788601}
   - {fileID: 20549242}
   - {fileID: 1120955212}
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1927324803}
   speed: 0.3
 --- !u!50 &1603407470
 Rigidbody2D:
@@ -36924,6 +36924,53 @@ Transform:
   m_Father: {fileID: 35070136}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1927324802
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ffee721e71a5f4d38a6050f26690559f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1927324803 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4384381966681620, guid: ffee721e71a5f4d38a6050f26690559f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1927324802}
 --- !u!1 &1934583804
 GameObject:
   m_ObjectHideFlags: 0
