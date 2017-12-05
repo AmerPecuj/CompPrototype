@@ -42,7 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 9
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 9
+    serializedVersion: 8
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -87,7 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_ShadowMaskMode: 2
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -150,8 +150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &5325724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -218,7 +218,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &8419854
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,8 +260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &8419857
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -329,7 +328,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &10756350
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,8 +370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &10756353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -440,7 +438,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &18119373
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,8 +480,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &18119376
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -551,7 +548,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &20549241
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,8 +618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &20950069
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -690,7 +686,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &22738788
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,8 +756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &29897196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -829,7 +824,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &33879488
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,8 +866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &33879491
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -940,7 +934,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &35070135
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,8 +1026,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &37270422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1101,7 +1094,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &43565720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1144,8 +1136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &43565723
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1212,7 +1204,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &49613470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,8 +1246,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &49613473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1323,7 +1314,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &53306591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,8 +1356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &53306594
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1434,7 +1424,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &60371423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,8 +1466,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &60371426
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1545,7 +1534,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &90988178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,8 +1576,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &90988181
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1656,7 +1644,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &92803467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,7 +1777,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!4 &92803473
 Transform:
   m_ObjectHideFlags: 0
@@ -1846,8 +1832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &92923469
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1914,7 +1900,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &99316780
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,8 +1942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &99316783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2025,7 +2010,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &100298389
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,8 +2052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &100298392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2136,7 +2120,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &102593120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,8 +2190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &107499922
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2275,7 +2258,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &111708684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,8 +2300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &111708687
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2386,7 +2368,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &120460470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,8 +2410,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &120460473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2497,7 +2478,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &127710797
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,8 +2520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &127710800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2608,7 +2588,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &129876278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,8 +2630,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &129876281
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2719,7 +2698,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &130734423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2762,8 +2740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &130734426
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2830,7 +2808,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &131285537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,8 +2850,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &131285540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2941,7 +2918,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &147474729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2984,8 +2960,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &147474732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3052,7 +3028,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &156589369
 GameObject:
   m_ObjectHideFlags: 0
@@ -3095,8 +3070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &156589372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3163,7 +3138,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &168702787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3206,8 +3180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &168702790
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3274,7 +3248,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &171583803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,8 +3290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &171583806
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3385,7 +3358,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &173797265
 GameObject:
   m_ObjectHideFlags: 0
@@ -3428,8 +3400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &173797268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3496,7 +3468,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &178840114
 GameObject:
   m_ObjectHideFlags: 0
@@ -3539,8 +3510,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &178840117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3607,7 +3578,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &187640088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3678,8 +3648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &195281732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3746,7 +3716,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &199442830
 GameObject:
   m_ObjectHideFlags: 0
@@ -3789,8 +3758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &199442833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3857,7 +3826,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &209276181
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,8 +3868,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &209276184
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3968,7 +3936,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &218027155
 GameObject:
   m_ObjectHideFlags: 0
@@ -4067,8 +4034,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &235589045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4135,7 +4102,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &248723435
 GameObject:
   m_ObjectHideFlags: 0
@@ -4178,8 +4144,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &248723438
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4246,7 +4212,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &248839354
 GameObject:
   m_ObjectHideFlags: 0
@@ -4289,8 +4254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &248839357
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4357,7 +4322,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &251952976
 GameObject:
   m_ObjectHideFlags: 0
@@ -4400,8 +4364,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &251952979
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4468,7 +4432,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &253184787
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,8 +4474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &253184790
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4579,7 +4542,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &266380774
 GameObject:
   m_ObjectHideFlags: 0
@@ -4622,8 +4584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &266380777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4690,7 +4652,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &266626909
 GameObject:
   m_ObjectHideFlags: 0
@@ -4733,8 +4694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &266626912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4801,7 +4762,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &267973484
 GameObject:
   m_ObjectHideFlags: 0
@@ -4844,8 +4804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &267973487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4912,7 +4872,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &270481666
 GameObject:
   m_ObjectHideFlags: 0
@@ -4983,8 +4942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &280461257
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5051,7 +5010,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &282888404
 GameObject:
   m_ObjectHideFlags: 0
@@ -5094,8 +5052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &282888407
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5162,7 +5120,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &283557157
 GameObject:
   m_ObjectHideFlags: 0
@@ -5205,8 +5162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &283557160
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5273,7 +5230,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &284145808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5316,8 +5272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &284145811
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5384,7 +5340,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &290380736
 GameObject:
   m_ObjectHideFlags: 0
@@ -5427,8 +5382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &290380739
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5495,7 +5450,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &292653214
 GameObject:
   m_ObjectHideFlags: 0
@@ -5538,8 +5492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &292653217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5606,7 +5560,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &294663814
 GameObject:
   m_ObjectHideFlags: 0
@@ -5649,8 +5602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &294663817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5717,7 +5670,118 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+--- !u!1001 &296257529
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224451065232554604, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &296257530 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114876389213185172, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+    type: 2}
+  m_PrefabInternal: {fileID: 296257529}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &296257531 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114490369567657304, guid: 56cfa1c4fa6574b4cb0d7d5ae0f6c89d,
+    type: 2}
+  m_PrefabInternal: {fileID: 296257529}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &302972579
 GameObject:
   m_ObjectHideFlags: 0
@@ -5760,8 +5824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &302972582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5828,7 +5892,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &307521053
 GameObject:
   m_ObjectHideFlags: 0
@@ -5871,8 +5934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &307521056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5939,7 +6002,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &308616942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5982,8 +6044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &308616945
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6050,7 +6112,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &314468102
 GameObject:
   m_ObjectHideFlags: 0
@@ -6121,8 +6182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &316466223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6189,7 +6250,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &320464119
 GameObject:
   m_ObjectHideFlags: 0
@@ -6232,8 +6292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &320464122
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6300,7 +6360,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &324282030
 GameObject:
   m_ObjectHideFlags: 0
@@ -6399,8 +6458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &330706180
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6467,7 +6526,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &340100468
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,8 +6568,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &340100471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6578,7 +6636,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &341803534
 GameObject:
   m_ObjectHideFlags: 0
@@ -6649,8 +6706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &342114802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6717,7 +6774,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &358388936
 GameObject:
   m_ObjectHideFlags: 0
@@ -6760,8 +6816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &358388939
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6828,7 +6884,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &358564871
 GameObject:
   m_ObjectHideFlags: 0
@@ -6871,8 +6926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &358564874
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6939,7 +6994,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &360693253
 GameObject:
   m_ObjectHideFlags: 0
@@ -6982,8 +7036,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &360693256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7050,7 +7104,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &361094612
 GameObject:
   m_ObjectHideFlags: 0
@@ -7093,8 +7146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &361094615
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7161,7 +7214,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &364380247
 GameObject:
   m_ObjectHideFlags: 0
@@ -7204,8 +7256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &364380250
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7272,7 +7324,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &367530731
 GameObject:
   m_ObjectHideFlags: 0
@@ -7315,8 +7366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &367530734
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7383,7 +7434,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &372748523
 GameObject:
   m_ObjectHideFlags: 0
@@ -7426,8 +7476,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &372748526
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7494,7 +7544,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &382732584
 GameObject:
   m_ObjectHideFlags: 0
@@ -7537,8 +7586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &382732587
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7605,7 +7654,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &396613936
 GameObject:
   m_ObjectHideFlags: 0
@@ -7676,8 +7724,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &401610916
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7744,7 +7792,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &405508780
 GameObject:
   m_ObjectHideFlags: 0
@@ -7787,8 +7834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &405508783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7855,7 +7902,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &413099301
 GameObject:
   m_ObjectHideFlags: 0
@@ -7898,8 +7944,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &413099304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7966,7 +8012,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &415064015
 GameObject:
   m_ObjectHideFlags: 0
@@ -8009,8 +8054,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &415064018
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8077,7 +8122,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &424885742
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,8 +8164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &424885745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8188,7 +8232,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &431426647
 GameObject:
   m_ObjectHideFlags: 0
@@ -8231,8 +8274,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &431426650
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8299,7 +8342,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &448453235
 GameObject:
   m_ObjectHideFlags: 0
@@ -8342,8 +8384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &448453238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8410,7 +8452,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &448777245
 GameObject:
   m_ObjectHideFlags: 0
@@ -8453,8 +8494,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &448777248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8521,7 +8562,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &449002878
 GameObject:
   m_ObjectHideFlags: 0
@@ -8564,8 +8604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &449002881
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8632,7 +8672,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &454723234
 GameObject:
   m_ObjectHideFlags: 0
@@ -8675,8 +8714,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &454723237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8743,7 +8782,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &464856459
 GameObject:
   m_ObjectHideFlags: 0
@@ -8786,8 +8824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &464856462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8854,7 +8892,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &466228567
 GameObject:
   m_ObjectHideFlags: 0
@@ -8897,8 +8934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &466228570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8965,7 +9002,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &469815282
 GameObject:
   m_ObjectHideFlags: 0
@@ -9008,8 +9044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &469815285
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9076,7 +9112,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &479745416
 GameObject:
   m_ObjectHideFlags: 0
@@ -9119,8 +9154,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &479745419
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9187,7 +9222,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &480191425
 GameObject:
   m_ObjectHideFlags: 0
@@ -9230,8 +9264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &480191428
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9298,7 +9332,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &511386014
 GameObject:
   m_ObjectHideFlags: 0
@@ -9341,8 +9374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &511386017
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9409,7 +9442,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &513624311
 GameObject:
   m_ObjectHideFlags: 0
@@ -9452,8 +9484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &513624314
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9520,7 +9552,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &513786961
 GameObject:
   m_ObjectHideFlags: 0
@@ -9563,8 +9594,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &513786964
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9631,7 +9662,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &514552985
 GameObject:
   m_ObjectHideFlags: 0
@@ -9674,8 +9704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &514552988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9742,7 +9772,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &518859845
 GameObject:
   m_ObjectHideFlags: 0
@@ -9785,8 +9814,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &518859848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9853,7 +9882,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &521866799
 GameObject:
   m_ObjectHideFlags: 0
@@ -9896,8 +9924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &521866802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9964,7 +9992,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &526069152
 GameObject:
   m_ObjectHideFlags: 0
@@ -10035,8 +10062,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &530272372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10103,7 +10130,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &537198474
 GameObject:
   m_ObjectHideFlags: 0
@@ -10146,8 +10172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &537198477
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10214,7 +10240,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &538016542
 GameObject:
   m_ObjectHideFlags: 0
@@ -10257,8 +10282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &538016545
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10325,7 +10350,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &539611468
 GameObject:
   m_ObjectHideFlags: 0
@@ -10368,8 +10392,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &539611471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10436,7 +10460,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &540208939
 GameObject:
   m_ObjectHideFlags: 0
@@ -10479,8 +10502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &540208942
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10547,7 +10570,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &546992696
 GameObject:
   m_ObjectHideFlags: 0
@@ -10590,8 +10612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &546992699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10658,7 +10680,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &553224393
 GameObject:
   m_ObjectHideFlags: 0
@@ -10701,8 +10722,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &553224396
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10769,7 +10790,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &554382769
 GameObject:
   m_ObjectHideFlags: 0
@@ -10812,8 +10832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &554382772
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10880,7 +10900,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &556132604
 GameObject:
   m_ObjectHideFlags: 0
@@ -10923,8 +10942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &556132607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10991,7 +11010,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &559015077
 GameObject:
   m_ObjectHideFlags: 0
@@ -11034,8 +11052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &559015080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11102,7 +11120,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &563454938
 GameObject:
   m_ObjectHideFlags: 0
@@ -11145,8 +11162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &563454941
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11213,7 +11230,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &576478970
 GameObject:
   m_ObjectHideFlags: 0
@@ -11256,8 +11272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &576478973
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11324,7 +11340,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &577808891
 GameObject:
   m_ObjectHideFlags: 0
@@ -11367,8 +11382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &577808894
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11435,7 +11450,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &583538583
 GameObject:
   m_ObjectHideFlags: 0
@@ -11478,8 +11492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &583538586
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11546,7 +11560,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &583888668
 GameObject:
   m_ObjectHideFlags: 0
@@ -11589,8 +11602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &583888671
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11657,7 +11670,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &591526777
 GameObject:
   m_ObjectHideFlags: 0
@@ -11700,8 +11712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &591526780
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11768,7 +11780,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &592459452
 GameObject:
   m_ObjectHideFlags: 0
@@ -11811,8 +11822,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &592459455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11879,7 +11890,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &600452084
 GameObject:
   m_ObjectHideFlags: 0
@@ -11922,8 +11932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &600452087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11990,7 +12000,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &600678807
 GameObject:
   m_ObjectHideFlags: 0
@@ -12033,8 +12042,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &600678810
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12101,7 +12110,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &600996197
 GameObject:
   m_ObjectHideFlags: 0
@@ -12144,8 +12152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &600996200
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12212,7 +12220,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &605512652
 GameObject:
   m_ObjectHideFlags: 0
@@ -12255,8 +12262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &605512655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12323,7 +12330,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &619741592
 GameObject:
   m_ObjectHideFlags: 0
@@ -12366,8 +12372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &619741595
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12434,7 +12440,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &623704883
 GameObject:
   m_ObjectHideFlags: 0
@@ -12477,8 +12482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &623704886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12545,7 +12550,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &623811710
 GameObject:
   m_ObjectHideFlags: 0
@@ -12588,8 +12592,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &623811713
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12656,7 +12660,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &623989054
 GameObject:
   m_ObjectHideFlags: 0
@@ -12699,8 +12702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &623989057
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12767,7 +12770,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &624106892
 GameObject:
   m_ObjectHideFlags: 0
@@ -12810,8 +12812,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &624106895
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12878,7 +12880,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &624339593
 GameObject:
   m_ObjectHideFlags: 0
@@ -12921,8 +12922,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &624339596
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12989,7 +12990,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &627935780
 GameObject:
   m_ObjectHideFlags: 0
@@ -13032,8 +13032,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &627935783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13100,7 +13100,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &629531081
 GameObject:
   m_ObjectHideFlags: 0
@@ -13143,8 +13142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &629531084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13211,7 +13210,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &638354238
 GameObject:
   m_ObjectHideFlags: 0
@@ -13282,8 +13280,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &638657096
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13350,7 +13348,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &642597688
 GameObject:
   m_ObjectHideFlags: 0
@@ -13393,8 +13390,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &642597691
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13461,7 +13458,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &656032677
 GameObject:
   m_ObjectHideFlags: 0
@@ -13504,8 +13500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &656032680
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13572,7 +13568,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &663648625
 GameObject:
   m_ObjectHideFlags: 0
@@ -14982,7 +14977,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!4 &663648679
 Transform:
   m_ObjectHideFlags: 0
@@ -15041,8 +15035,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &665995390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15109,7 +15103,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &667147491
 GameObject:
   m_ObjectHideFlags: 0
@@ -15152,8 +15145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &667147494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15220,7 +15213,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &672502766
 GameObject:
   m_ObjectHideFlags: 0
@@ -15263,8 +15255,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &672502769
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15331,7 +15323,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &678028595
 GameObject:
   m_ObjectHideFlags: 0
@@ -15374,8 +15365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &678028598
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15442,7 +15433,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &682311225
 GameObject:
   m_ObjectHideFlags: 0
@@ -15485,8 +15475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &682311228
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15553,7 +15543,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &688023758
 GameObject:
   m_ObjectHideFlags: 0
@@ -15596,8 +15585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &688023761
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15664,7 +15653,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &690007896
 GameObject:
   m_ObjectHideFlags: 0
@@ -15707,8 +15695,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &690007899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15775,7 +15763,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &699375518
 GameObject:
   m_ObjectHideFlags: 0
@@ -15818,8 +15805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &699375521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15886,7 +15873,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &701577999
 GameObject:
   m_ObjectHideFlags: 0
@@ -15929,8 +15915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &701578002
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15997,7 +15983,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &705917488
 GameObject:
   m_ObjectHideFlags: 0
@@ -16040,8 +16025,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &705917491
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16108,7 +16093,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &728198009
 GameObject:
   m_ObjectHideFlags: 0
@@ -16151,8 +16135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &728198012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16219,7 +16203,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &729179995
 GameObject:
   m_ObjectHideFlags: 0
@@ -16262,8 +16245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &729179998
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16330,7 +16313,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &730820802
 GameObject:
   m_ObjectHideFlags: 0
@@ -16754,8 +16736,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &739293007
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16822,7 +16804,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &741584076
 GameObject:
   m_ObjectHideFlags: 0
@@ -16865,8 +16846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &741584079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16933,7 +16914,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &741808451
 GameObject:
   m_ObjectHideFlags: 0
@@ -16976,8 +16956,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &741808454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17044,7 +17024,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &747688460
 GameObject:
   m_ObjectHideFlags: 0
@@ -17087,8 +17066,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &747688463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17155,7 +17134,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &747718312
 GameObject:
   m_ObjectHideFlags: 0
@@ -17198,8 +17176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &747718315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17266,7 +17244,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &748066341
 GameObject:
   m_ObjectHideFlags: 0
@@ -17309,8 +17286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &748066344
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17377,7 +17354,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &771261844
 GameObject:
   m_ObjectHideFlags: 0
@@ -17420,8 +17396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &771261847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17488,7 +17464,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &775825313
 GameObject:
   m_ObjectHideFlags: 0
@@ -17531,8 +17506,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &775825316
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17599,7 +17574,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &779094909
 GameObject:
   m_ObjectHideFlags: 0
@@ -17642,8 +17616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &779094912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17710,7 +17684,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &781620789
 GameObject:
   m_ObjectHideFlags: 0
@@ -17753,8 +17726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &781620792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17821,7 +17794,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &782210380
 GameObject:
   m_ObjectHideFlags: 0
@@ -17864,8 +17836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &782210383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17932,7 +17904,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &786358930
 GameObject:
   m_ObjectHideFlags: 0
@@ -17975,8 +17946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &786358933
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18043,7 +18014,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &787915212
 GameObject:
   m_ObjectHideFlags: 0
@@ -18086,8 +18056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &787915215
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18154,7 +18124,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &792780628
 GameObject:
   m_ObjectHideFlags: 0
@@ -18197,8 +18166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &792780631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18265,7 +18234,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &806331240
 GameObject:
   m_ObjectHideFlags: 0
@@ -18308,8 +18276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &806331243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18376,7 +18344,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &807848391
 GameObject:
   m_ObjectHideFlags: 0
@@ -18419,8 +18386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &807848394
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18487,7 +18454,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &808666317
 GameObject:
   m_ObjectHideFlags: 0
@@ -18530,8 +18496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &808666320
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18598,7 +18564,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &816194431
 GameObject:
   m_ObjectHideFlags: 0
@@ -18641,8 +18606,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &816194434
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18709,7 +18674,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &817347991
 GameObject:
   m_ObjectHideFlags: 0
@@ -18752,8 +18716,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &817347994
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18820,7 +18784,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &819165754
 GameObject:
   m_ObjectHideFlags: 0
@@ -18891,8 +18854,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &825451218
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18959,7 +18922,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &836079757
 GameObject:
   m_ObjectHideFlags: 0
@@ -19002,8 +18964,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &836079760
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19070,7 +19032,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &836125253
 GameObject:
   m_ObjectHideFlags: 0
@@ -19113,8 +19074,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &836125256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19181,7 +19142,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &838804320
 GameObject:
   m_ObjectHideFlags: 0
@@ -19224,8 +19184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &838804323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19292,7 +19252,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &841470152
 GameObject:
   m_ObjectHideFlags: 0
@@ -19335,8 +19294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &841470155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19403,7 +19362,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &841634158
 GameObject:
   m_ObjectHideFlags: 0
@@ -19446,8 +19404,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &841634161
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19514,7 +19472,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &845691667
 GameObject:
   m_ObjectHideFlags: 0
@@ -19557,8 +19514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &845691670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19625,7 +19582,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &861210260
 GameObject:
   m_ObjectHideFlags: 0
@@ -19696,8 +19652,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &874091415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19764,7 +19720,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &879093705
 GameObject:
   m_ObjectHideFlags: 0
@@ -19807,8 +19762,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &879093708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19875,7 +19830,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &885937499
 GameObject:
   m_ObjectHideFlags: 0
@@ -19946,8 +19900,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &914672719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20014,7 +19968,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &938053377
 GameObject:
   m_ObjectHideFlags: 0
@@ -20057,8 +20010,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &938053380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20125,7 +20078,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &944308100
 GameObject:
   m_ObjectHideFlags: 0
@@ -20168,8 +20120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &944308103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20236,7 +20188,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &951812173
 GameObject:
   m_ObjectHideFlags: 0
@@ -20279,8 +20230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &951812176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20347,7 +20298,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &960843378
 GameObject:
   m_ObjectHideFlags: 0
@@ -20418,8 +20368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &961423322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20486,7 +20436,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &970850760
 GameObject:
   m_ObjectHideFlags: 0
@@ -20529,8 +20478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &970850763
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20597,7 +20546,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &973515823
 GameObject:
   m_ObjectHideFlags: 0
@@ -20668,8 +20616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &979123497
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20736,7 +20684,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &980611570
 GameObject:
   m_ObjectHideFlags: 0
@@ -20779,8 +20726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &980611573
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20847,7 +20794,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &993325962
 GameObject:
   m_ObjectHideFlags: 0
@@ -20918,8 +20864,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1000278884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20986,7 +20932,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1007545115
 GameObject:
   m_ObjectHideFlags: 0
@@ -21029,8 +20974,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1007545118
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21097,7 +21042,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1008995707
 GameObject:
   m_ObjectHideFlags: 0
@@ -21140,8 +21084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1008995710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21208,7 +21152,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1019589097
 GameObject:
   m_ObjectHideFlags: 0
@@ -21251,8 +21194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1019589100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21319,7 +21262,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1023438045
 GameObject:
   m_ObjectHideFlags: 0
@@ -21362,8 +21304,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1023438048
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21430,7 +21372,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1024009395
 GameObject:
   m_ObjectHideFlags: 0
@@ -21473,8 +21414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1024009398
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21541,7 +21482,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1033500029
 GameObject:
   m_ObjectHideFlags: 0
@@ -21584,8 +21524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1033500032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21652,7 +21592,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1041909389
 GameObject:
   m_ObjectHideFlags: 0
@@ -21695,8 +21634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1041909392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21763,7 +21702,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1044540072
 GameObject:
   m_ObjectHideFlags: 0
@@ -21806,8 +21744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1044540075
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21874,7 +21812,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1044613344
 GameObject:
   m_ObjectHideFlags: 0
@@ -21917,8 +21854,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1044613347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21985,7 +21922,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1045788600
 GameObject:
   m_ObjectHideFlags: 0
@@ -22056,8 +21992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1046234699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22124,7 +22060,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1051977239
 GameObject:
   m_ObjectHideFlags: 0
@@ -22167,8 +22102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1051977242
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22235,7 +22170,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1054057960
 GameObject:
   m_ObjectHideFlags: 0
@@ -22278,8 +22212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1054057963
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22346,7 +22280,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1058480546
 GameObject:
   m_ObjectHideFlags: 0
@@ -22389,8 +22322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1058480549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22457,7 +22390,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1061805883
 GameObject:
   m_ObjectHideFlags: 0
@@ -22500,8 +22432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1061805886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22568,7 +22500,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1071252362
 GameObject:
   m_ObjectHideFlags: 0
@@ -22639,8 +22570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1074091323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22707,7 +22638,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1088677012
 GameObject:
   m_ObjectHideFlags: 0
@@ -22750,8 +22680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1088677015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22818,7 +22748,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1091894647
 GameObject:
   m_ObjectHideFlags: 0
@@ -22889,8 +22818,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1094733317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22957,7 +22886,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1100227659
 GameObject:
   m_ObjectHideFlags: 0
@@ -23000,8 +22928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1100227662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23068,7 +22996,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1100914060
 GameObject:
   m_ObjectHideFlags: 0
@@ -23111,8 +23038,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1100914063
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23179,7 +23106,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1104243724
 GameObject:
   m_ObjectHideFlags: 0
@@ -23222,8 +23148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1104243727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23290,7 +23216,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1111461188
 GameObject:
   m_ObjectHideFlags: 0
@@ -23333,8 +23258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1111461191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23401,7 +23326,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1112158238
 GameObject:
   m_ObjectHideFlags: 0
@@ -23444,8 +23368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1112158241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23512,7 +23436,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1113345092
 GameObject:
   m_ObjectHideFlags: 0
@@ -23611,8 +23534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1122884053
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23679,7 +23602,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1138362596
 GameObject:
   m_ObjectHideFlags: 0
@@ -23750,8 +23672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1151810540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23818,7 +23740,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1152382941
 GameObject:
   m_ObjectHideFlags: 0
@@ -23950,8 +23871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1154505145
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24018,7 +23939,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1155554961
 GameObject:
   m_ObjectHideFlags: 0
@@ -24061,8 +23981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1155554964
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24129,7 +24049,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1157084737
 GameObject:
   m_ObjectHideFlags: 0
@@ -24172,8 +24091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1157084740
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24240,7 +24159,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1162235779
 GameObject:
   m_ObjectHideFlags: 0
@@ -24283,8 +24201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1162235782
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24351,7 +24269,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1172362272
 GameObject:
   m_ObjectHideFlags: 0
@@ -24394,8 +24311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1172362275
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24462,7 +24379,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1176734919
 GameObject:
   m_ObjectHideFlags: 0
@@ -24505,8 +24421,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1176734922
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24573,7 +24489,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1186220859
 GameObject:
   m_ObjectHideFlags: 0
@@ -24616,8 +24531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1186220862
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24684,7 +24599,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1188526047
 GameObject:
   m_ObjectHideFlags: 0
@@ -24727,8 +24641,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1188526050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24795,7 +24709,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1189830754
 GameObject:
   m_ObjectHideFlags: 0
@@ -24838,8 +24751,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1189830757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24906,7 +24819,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1189917683
 GameObject:
   m_ObjectHideFlags: 0
@@ -24949,8 +24861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1189917686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25017,7 +24929,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1197483275
 GameObject:
   m_ObjectHideFlags: 0
@@ -25060,8 +24971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1197483278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25128,7 +25039,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1201450676
 GameObject:
   m_ObjectHideFlags: 0
@@ -25171,8 +25081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1201450679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25239,7 +25149,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1202677878
 GameObject:
   m_ObjectHideFlags: 0
@@ -25282,8 +25191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1202677881
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25350,7 +25259,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1204782699
 GameObject:
   m_ObjectHideFlags: 0
@@ -25393,8 +25301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1204782702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25461,7 +25369,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1208391568
 GameObject:
   m_ObjectHideFlags: 0
@@ -25504,8 +25411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1208391571
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25572,7 +25479,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1214079241
 GameObject:
   m_ObjectHideFlags: 0
@@ -25615,8 +25521,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1214079244
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25683,7 +25589,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1217130410
 GameObject:
   m_ObjectHideFlags: 0
@@ -25726,8 +25631,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1217130413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25794,7 +25699,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1220314577
 GameObject:
   m_ObjectHideFlags: 0
@@ -25837,8 +25741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1220314580
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25905,7 +25809,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1222420825
 GameObject:
   m_ObjectHideFlags: 0
@@ -25948,8 +25851,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1222420828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26016,7 +25919,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1228353723
 GameObject:
   m_ObjectHideFlags: 0
@@ -26059,8 +25961,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1228353726
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26127,7 +26029,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1230127316
 GameObject:
   m_ObjectHideFlags: 0
@@ -26198,8 +26099,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1240390020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26266,7 +26167,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1249015041
 GameObject:
   m_ObjectHideFlags: 0
@@ -26309,8 +26209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1249015044
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26377,7 +26277,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1256340918
 GameObject:
   m_ObjectHideFlags: 0
@@ -26448,8 +26347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1259336808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26516,7 +26415,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1266800824
 GameObject:
   m_ObjectHideFlags: 0
@@ -26559,8 +26457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1266800827
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26627,7 +26525,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1278386841
 GameObject:
   m_ObjectHideFlags: 0
@@ -26698,8 +26595,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1295077915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26766,7 +26663,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1296234530
 GameObject:
   m_ObjectHideFlags: 0
@@ -26809,8 +26705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1296234533
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26877,7 +26773,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1302972485
 GameObject:
   m_ObjectHideFlags: 0
@@ -26920,8 +26815,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1302972488
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26988,7 +26883,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1314684385
 GameObject:
   m_ObjectHideFlags: 0
@@ -27031,8 +26925,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1314684388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27099,7 +26993,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1315049914
 GameObject:
   m_ObjectHideFlags: 0
@@ -27142,8 +27035,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1315049917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27210,7 +27103,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1325484641
 GameObject:
   m_ObjectHideFlags: 0
@@ -27309,8 +27201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1333258873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27377,7 +27269,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1339390995
 GameObject:
   m_ObjectHideFlags: 0
@@ -27420,8 +27311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1339390998
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27488,7 +27379,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1357286171
 GameObject:
   m_ObjectHideFlags: 0
@@ -27531,8 +27421,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1357286174
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27599,7 +27489,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1358670406
 GameObject:
   m_ObjectHideFlags: 0
@@ -27670,8 +27559,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1359174307
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27738,7 +27627,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1363549051
 GameObject:
   m_ObjectHideFlags: 0
@@ -27781,8 +27669,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1363549054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27849,7 +27737,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1375028932
 GameObject:
   m_ObjectHideFlags: 0
@@ -27892,8 +27779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1375028935
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27960,7 +27847,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1376592662
 GameObject:
   m_ObjectHideFlags: 0
@@ -28003,8 +27889,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1376592665
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28071,7 +27957,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1386282404
 GameObject:
   m_ObjectHideFlags: 0
@@ -28114,8 +27999,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1386282407
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28182,7 +28067,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1386782412
 GameObject:
   m_ObjectHideFlags: 0
@@ -28253,8 +28137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1388326982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28321,7 +28205,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1403953411
 GameObject:
   m_ObjectHideFlags: 0
@@ -28364,8 +28247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1403953414
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28432,7 +28315,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1413106951
 GameObject:
   m_ObjectHideFlags: 0
@@ -28475,8 +28357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1413106954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28543,7 +28425,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1415426833
 GameObject:
   m_ObjectHideFlags: 0
@@ -28586,8 +28467,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1415426836
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28654,7 +28535,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1416603439
 GameObject:
   m_ObjectHideFlags: 0
@@ -28751,8 +28631,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1417179260
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28819,7 +28699,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1418685962
 GameObject:
   m_ObjectHideFlags: 0
@@ -28862,8 +28741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1418685965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28930,7 +28809,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1419478916
 GameObject:
   m_ObjectHideFlags: 0
@@ -28973,8 +28851,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1419478919
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29041,7 +28919,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1422889279
 GameObject:
   m_ObjectHideFlags: 0
@@ -29084,8 +28961,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1422889282
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29152,7 +29029,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1434369843
 GameObject:
   m_ObjectHideFlags: 0
@@ -29223,8 +29099,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1437982727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29291,7 +29167,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1456997621
 GameObject:
   m_ObjectHideFlags: 0
@@ -29334,8 +29209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1456997624
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29402,7 +29277,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1460846466
 GameObject:
   m_ObjectHideFlags: 0
@@ -29445,8 +29319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1460846469
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29513,7 +29387,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1476666734
 GameObject:
   m_ObjectHideFlags: 0
@@ -29556,8 +29429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1476666737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29624,7 +29497,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1479790393
 GameObject:
   m_ObjectHideFlags: 0
@@ -29667,8 +29539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1479790396
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29735,7 +29607,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1481689220
 GameObject:
   m_ObjectHideFlags: 0
@@ -29778,8 +29649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1481689223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29846,7 +29717,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1482354573
 GameObject:
   m_ObjectHideFlags: 0
@@ -29889,8 +29759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1482354576
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29957,7 +29827,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1482420461
 GameObject:
   m_ObjectHideFlags: 0
@@ -30000,8 +29869,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1482420464
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30068,7 +29937,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1483882531
 GameObject:
   m_ObjectHideFlags: 0
@@ -30111,8 +29979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1483882534
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30179,7 +30047,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1488037891
 GameObject:
   m_ObjectHideFlags: 0
@@ -30222,8 +30089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1488037894
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30290,7 +30157,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1495197231
 GameObject:
   m_ObjectHideFlags: 0
@@ -30333,8 +30199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1495197234
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30401,7 +30267,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1501862407
 GameObject:
   m_ObjectHideFlags: 0
@@ -30444,8 +30309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1501862410
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30512,7 +30377,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1508458724
 GameObject:
   m_ObjectHideFlags: 0
@@ -30555,8 +30419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1508458727
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30623,7 +30487,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1531075782
 GameObject:
   m_ObjectHideFlags: 0
@@ -30666,8 +30529,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1531075785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30734,7 +30597,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1551738109
 GameObject:
   m_ObjectHideFlags: 0
@@ -30777,8 +30639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1551738112
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30845,7 +30707,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1556420973
 GameObject:
   m_ObjectHideFlags: 0
@@ -30888,8 +30749,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1556420976
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30956,7 +30817,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1568108441
 GameObject:
   m_ObjectHideFlags: 0
@@ -30999,8 +30859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1568108444
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31067,7 +30927,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1580429695
 GameObject:
   m_ObjectHideFlags: 0
@@ -31110,8 +30969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1580429698
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31178,7 +31037,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1585680363
 GameObject:
   m_ObjectHideFlags: 0
@@ -31221,8 +31079,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1585680366
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31289,7 +31147,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1600010147
 GameObject:
   m_ObjectHideFlags: 0
@@ -31332,8 +31189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1600010150
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31400,7 +31257,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1603407468
 GameObject:
   m_ObjectHideFlags: 0
@@ -31459,6 +31315,7 @@ MonoBehaviour:
   - {fileID: 1045788601}
   - {fileID: 20549242}
   - {fileID: 1120955212}
+  spawnPoint: {fileID: 0}
   speed: 0.3
 --- !u!50 &1603407470
 Rigidbody2D:
@@ -31553,7 +31410,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!4 &1603407474
 Transform:
   m_ObjectHideFlags: 0
@@ -31609,8 +31465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1604329888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31677,7 +31533,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1605427566
 GameObject:
   m_ObjectHideFlags: 0
@@ -31720,8 +31575,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1605427569
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31788,7 +31643,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1607831151
 GameObject:
   m_ObjectHideFlags: 0
@@ -31831,8 +31685,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1607831154
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31899,7 +31753,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1611136111
 GameObject:
   m_ObjectHideFlags: 0
@@ -31942,8 +31795,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1611136114
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32010,7 +31863,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1618561241
 GameObject:
   m_ObjectHideFlags: 0
@@ -32053,8 +31905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1618561244
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32121,7 +31973,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1625424921
 GameObject:
   m_ObjectHideFlags: 0
@@ -32164,8 +32015,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1625424924
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32232,7 +32083,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1632702184
 GameObject:
   m_ObjectHideFlags: 0
@@ -32275,8 +32125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1632702187
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32343,7 +32193,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1640985961
 GameObject:
   m_ObjectHideFlags: 0
@@ -32386,8 +32235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1640985964
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32454,7 +32303,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1660675099
 GameObject:
   m_ObjectHideFlags: 0
@@ -32525,8 +32373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1675740090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32593,7 +32441,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1685196664
 GameObject:
   m_ObjectHideFlags: 0
@@ -32636,8 +32483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1685196667
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32704,7 +32551,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1689437475
 GameObject:
   m_ObjectHideFlags: 0
@@ -32747,8 +32593,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1689437478
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32815,7 +32661,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1698791095
 GameObject:
   m_ObjectHideFlags: 0
@@ -32858,8 +32703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1698791098
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32926,7 +32771,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1700684256
 GameObject:
   m_ObjectHideFlags: 0
@@ -32969,8 +32813,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1700684259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33037,7 +32881,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1717677874
 GameObject:
   m_ObjectHideFlags: 0
@@ -33080,8 +32923,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1717677877
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33148,7 +32991,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1720220044
 GameObject:
   m_ObjectHideFlags: 0
@@ -33219,8 +33061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1724001223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33287,7 +33129,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1728394672
 GameObject:
   m_ObjectHideFlags: 0
@@ -33330,8 +33171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1728394675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33398,7 +33239,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1732648789
 GameObject:
   m_ObjectHideFlags: 0
@@ -33441,8 +33281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1732648792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33509,7 +33349,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1736527230
 GameObject:
   m_ObjectHideFlags: 0
@@ -33552,8 +33391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1736527233
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33620,7 +33459,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1743913202
 GameObject:
   m_ObjectHideFlags: 0
@@ -33663,8 +33501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1743913205
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33731,7 +33569,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1744982147
 GameObject:
   m_ObjectHideFlags: 0
@@ -33774,8 +33611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1744982150
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33842,7 +33679,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1752498614
 GameObject:
   m_ObjectHideFlags: 0
@@ -33885,8 +33721,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1752498617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33953,7 +33789,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1759997072
 GameObject:
   m_ObjectHideFlags: 0
@@ -33996,8 +33831,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1759997075
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34064,7 +33899,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1765780087
 GameObject:
   m_ObjectHideFlags: 0
@@ -34107,8 +33941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1765780090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34175,7 +34009,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1770804497
 GameObject:
   m_ObjectHideFlags: 0
@@ -34218,8 +34051,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1770804500
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34286,7 +34119,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1772960087
 GameObject:
   m_ObjectHideFlags: 0
@@ -34329,8 +34161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1772960090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34397,7 +34229,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1775027182
 GameObject:
   m_ObjectHideFlags: 0
@@ -34459,7 +34290,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!4 &1775027184
 Transform:
   m_ObjectHideFlags: 0
@@ -34540,6 +34370,7 @@ MonoBehaviour:
   - {fileID: 324282031}
   - {fileID: 1967523984}
   - {fileID: 638354239}
+  spawnPoint: {fileID: 0}
   speed: 0.3
 --- !u!50 &1775027188
 Rigidbody2D:
@@ -34603,8 +34434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1779851597
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34671,7 +34502,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1782891762
 GameObject:
   m_ObjectHideFlags: 0
@@ -34742,8 +34572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1788172457
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34810,7 +34640,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1789022371
 GameObject:
   m_ObjectHideFlags: 0
@@ -34853,8 +34682,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1789022374
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34921,7 +34750,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1792384114
 GameObject:
   m_ObjectHideFlags: 0
@@ -34964,8 +34792,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1792384117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35032,7 +34860,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1800702865
 GameObject:
   m_ObjectHideFlags: 0
@@ -35075,8 +34902,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1800702868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35143,7 +34970,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1811239841
 GameObject:
   m_ObjectHideFlags: 0
@@ -35186,8 +35012,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1811239844
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35254,7 +35080,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1811821352
 GameObject:
   m_ObjectHideFlags: 0
@@ -35297,8 +35122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1811821355
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35365,7 +35190,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1814568601
 GameObject:
   m_ObjectHideFlags: 0
@@ -35408,8 +35232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1814568604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35476,7 +35300,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1819304784
 GameObject:
   m_ObjectHideFlags: 0
@@ -35519,8 +35342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1819304787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35587,7 +35410,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1831799790
 GameObject:
   m_ObjectHideFlags: 0
@@ -35630,8 +35452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1831799793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35698,7 +35520,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1840324401
 GameObject:
   m_ObjectHideFlags: 0
@@ -35769,8 +35590,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1853366388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35837,7 +35658,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1865588876
 GameObject:
   m_ObjectHideFlags: 0
@@ -35880,8 +35700,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1865588879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35948,7 +35768,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1865924761
 GameObject:
   m_ObjectHideFlags: 0
@@ -35991,8 +35810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1865924764
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36059,7 +35878,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1870888403
 GameObject:
   m_ObjectHideFlags: 0
@@ -36130,8 +35948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1878424719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36198,7 +36016,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1880383989
 GameObject:
   m_ObjectHideFlags: 0
@@ -36241,8 +36058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1880383992
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36309,7 +36126,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1883032900
 GameObject:
   m_ObjectHideFlags: 0
@@ -36352,8 +36168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1883032903
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36420,7 +36236,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1887558290
 GameObject:
   m_ObjectHideFlags: 0
@@ -36463,8 +36278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1887558293
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36531,7 +36346,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1889330738
 GameObject:
   m_ObjectHideFlags: 0
@@ -36574,8 +36388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1889330741
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36642,7 +36456,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1890290003
 GameObject:
   m_ObjectHideFlags: 0
@@ -36685,8 +36498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1890290006
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36753,7 +36566,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1900746525
 GameObject:
   m_ObjectHideFlags: 0
@@ -36796,8 +36608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1900746528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36864,7 +36676,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1901435001
 GameObject:
   m_ObjectHideFlags: 0
@@ -36907,8 +36718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1901435004
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36975,7 +36786,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1902424338
 GameObject:
   m_ObjectHideFlags: 0
@@ -37018,8 +36828,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1902424341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37086,7 +36896,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1916192433
 GameObject:
   m_ObjectHideFlags: 0
@@ -37213,8 +37022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1946737169
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37281,7 +37090,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1948763056
 GameObject:
   m_ObjectHideFlags: 0
@@ -37352,8 +37160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1958498045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37420,7 +37228,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1962714371
 GameObject:
   m_ObjectHideFlags: 0
@@ -37463,8 +37270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1962714374
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37531,7 +37338,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1967523983
 GameObject:
   m_ObjectHideFlags: 0
@@ -37602,8 +37408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1968135197
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37670,7 +37476,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1969223929
 GameObject:
   m_ObjectHideFlags: 0
@@ -37713,8 +37518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1969223932
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37781,7 +37586,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1972952716
 GameObject:
   m_ObjectHideFlags: 0
@@ -37824,8 +37628,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1972952719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37892,7 +37696,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1978965750
 GameObject:
   m_ObjectHideFlags: 0
@@ -37935,8 +37738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1978965753
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38003,7 +37806,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1995809300
 GameObject:
   m_ObjectHideFlags: 0
@@ -38046,8 +37848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1995809303
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38114,7 +37916,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &1999360468
 GameObject:
   m_ObjectHideFlags: 0
@@ -38157,8 +37958,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &1999360471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38225,7 +38026,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2000359336
 GameObject:
   m_ObjectHideFlags: 0
@@ -38268,8 +38068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2000359339
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38336,7 +38136,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2005212350
 GameObject:
   m_ObjectHideFlags: 0
@@ -38379,8 +38178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2005212353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38447,7 +38246,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2009610083
 GameObject:
   m_ObjectHideFlags: 0
@@ -38490,8 +38288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2009610086
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38558,7 +38356,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2013191022
 GameObject:
   m_ObjectHideFlags: 0
@@ -38601,8 +38398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2013191025
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38669,7 +38466,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2047787565
 GameObject:
   m_ObjectHideFlags: 0
@@ -38712,8 +38508,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2047787568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38780,7 +38576,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2072746601
 GameObject:
   m_ObjectHideFlags: 0
@@ -38823,8 +38618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2072746604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38891,7 +38686,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2076831256
 GameObject:
   m_ObjectHideFlags: 0
@@ -38934,8 +38728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2076831259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39002,7 +38796,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2078843940
 GameObject:
   m_ObjectHideFlags: 0
@@ -39045,8 +38838,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2078843943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39113,7 +38906,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2079154817
 GameObject:
   m_ObjectHideFlags: 0
@@ -39156,8 +38948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2079154820
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39224,7 +39016,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2087063645
 GameObject:
   m_ObjectHideFlags: 0
@@ -39267,8 +39058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2087063648
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39335,7 +39126,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2101638956
 GameObject:
   m_ObjectHideFlags: 0
@@ -39378,8 +39168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2101638959
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39446,7 +39236,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2109391706
 GameObject:
   m_ObjectHideFlags: 0
@@ -39489,8 +39278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2109391709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39557,7 +39346,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2110062433
 GameObject:
   m_ObjectHideFlags: 0
@@ -39656,8 +39444,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2126526577
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39724,7 +39512,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2130834031
 GameObject:
   m_ObjectHideFlags: 0
@@ -39767,8 +39554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2130834034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39835,7 +39622,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2138576595
 GameObject:
   m_ObjectHideFlags: 0
@@ -39878,8 +39664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b8b8faf1fbb4d90b87790c69df9234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
-  winText: {fileID: 0}
+  countText: {fileID: 296257531}
+  winText: {fileID: 296257530}
 --- !u!61 &2138576598
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39946,7 +39732,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!1 &2142682840
 GameObject:
   m_ObjectHideFlags: 0
