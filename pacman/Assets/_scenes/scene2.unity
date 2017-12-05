@@ -34370,7 +34370,7 @@ MonoBehaviour:
   - {fileID: 324282031}
   - {fileID: 1967523984}
   - {fileID: 638354239}
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 1927324803}
   speed: 0.3
 --- !u!50 &1775027188
 Rigidbody2D:
