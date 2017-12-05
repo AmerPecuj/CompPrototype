@@ -20,14 +20,14 @@ public class BulletScript : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter2D(Collider2D co) {
-	    if (co.name == "blinky") {
-	        Destroy(co.gameObject);
-}
+	//void OnTriggerEnter2D(Collider2D co) {
+	  //  if (co.name == "blinky") {
+	    //    Destroy(co.gameObject);
+//}
 					//if (co.name == "blinky"){
 			      //  co.transform.position =  spawnPoint.position;
 
 			//}
-	}
+	//}
 
 }
