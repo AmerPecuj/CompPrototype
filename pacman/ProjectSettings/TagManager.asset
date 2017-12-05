@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - pacdots
+  - pacdot
+  - bullet
   layers:
   - Default
   - TransparentFX

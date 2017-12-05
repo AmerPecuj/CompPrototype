@@ -4,7 +4,7 @@ using System.Collections;
 public class GhostMove : MonoBehaviour {
     public Transform[] waypoints;
     int cur = 0;
-
+    public Transform spawnPoint;
     public float speed = 0.3f;
 
 void FixedUpdate () {
@@ -27,5 +27,9 @@ void FixedUpdate () {
 void OnTriggerEnter2D(Collider2D co) {
     if (co.name == "pacman")
         Destroy(co.gameObject);
+
+        if (co.name == "pacman")
+            transform.position =  spawnPoint.position;
+
 }
 }

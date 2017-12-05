@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletScript : MonoBehaviour {
-
+//public Transform spawnPoint;
 	public float velX = 5F;
 	public float velY = 5f;
 				Rigidbody2D rb;
@@ -21,8 +21,13 @@ public class BulletScript : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D co) {
-	    if (co.name == "blinky")
+	    if (co.name == "blinky") {
 	        Destroy(co.gameObject);
+}
+					//if (co.name == "blinky"){
+			      //  co.transform.position =  spawnPoint.position;
+
+			//}
 	}
 
 }
