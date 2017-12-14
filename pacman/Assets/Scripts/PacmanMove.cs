@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 using System.Collections.Generic;
 
 public class PacmanMove : MonoBehaviour {
@@ -10,9 +11,15 @@ public class PacmanMove : MonoBehaviour {
     public float fireRate = 0.5f;
     float nextFire = 0.0f;
     int facing = 1;
+    public Text countText;
+    public Text winText;
+    private int count;
 
     void Start() {
         dest = transform.position;
+        count = 0;
+        SetCountText ();
+        winText.text = "";
     }
 
     void Update() {
@@ -79,4 +86,24 @@ void FixedUpdate() {
           Instantiate (BulletToDown, bulletPos, Quaternion.identity);
         }
       }
+
+      void OnTriggerEnter2D(Collider2D co) {
+          if (co.tag == "pacdots")
+    {
+        count = count + 1;
+              SetCountText ();
+              Destroy(co.gameObject);
+              print(count);
+    };
+      }
+
+      void SetCountText ()
+      {
+          countText.text = "Count: " + count.ToString ();
+          if (count >= 327)
+          {
+              winText.text = "You Win!";
+          }
+      }
+
     }
