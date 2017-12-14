@@ -21,7 +21,7 @@ public class Pacdot : MonoBehaviour {
 	    count = count + 1;
             SetCountText ();
             gameObject.SetActive (false);
-	}
+	};
     }
 
     void SetCountText ()
