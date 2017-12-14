@@ -7607,6 +7607,8 @@ MonoBehaviour:
   BulletToDown: {fileID: 1186940155807588, guid: f0e1b5647dddf41079d38df72b304d3a,
     type: 2}
   fireRate: 0.5
+  countText: {fileID: 0}
+  winText: {fileID: 0}
 --- !u!50 &415857019
 Rigidbody2D:
   serializedVersion: 4
