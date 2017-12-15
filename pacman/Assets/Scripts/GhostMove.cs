@@ -29,6 +29,10 @@ void OnTriggerEnter2D(Collider2D co) {
         Destroy(co.gameObject);
 
 
+    if (co.name == "bulletToUp(Clone)" || co.name == "bulletToLeft(Clone)" || co.name == "bulletToDown(Clone)" || co.name == "bulletToRight(Clone)"){
+        Destroy(co.gameObject);
+};
+
         if (co.name == "bulletToUp(Clone)" || co.name == "bulletToLeft(Clone)" || co.name == "bulletToDown(Clone)" || co.name == "bulletToRight(Clone)"){
             transform.position =  spawnPoint.position;
             cur = 0;
