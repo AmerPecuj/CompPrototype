@@ -93,17 +93,33 @@ void FixedUpdate() {
         count = count + 1;
               SetCountText ();
               Destroy(co.gameObject);
-              print(count);
     };
       }
 
       void SetCountText ()
       {
           countText.text = "Count: " + count.ToString ();
+
+          if (Application.loadedLevelName == "scene"){
           if (count >= 327)
           {
-              winText.text = "You Win!";
+            Application.LoadLevel(2);
+              //winText.text = "You Win!";
           }
+        }
+        if (Application.loadedLevelName == "scene2"){
+        if (count >= 327)
+        {
+          Application.LoadLevel(3);
+            //winText.text = "You Win!";
+        }
+      }
+      if (Application.loadedLevelName == "scene3") {
+      if (count >= 327)
+      {
+          winText.text = "You Win!";
+      }
+    }
       }
 
     }

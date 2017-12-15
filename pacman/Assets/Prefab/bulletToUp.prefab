@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velX: 0
-  velY: 8
+  velY: 16
 --- !u!212 &212552771460332572
 SpriteRenderer:
   m_ObjectHideFlags: 1
