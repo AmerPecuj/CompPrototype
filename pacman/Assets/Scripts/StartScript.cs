@@ -12,16 +12,16 @@ public class StartScript : MonoBehaviour {
 	void OnGUI () {
 
 	GUI.contentColor = Color.yellow;
-	if (GUI.Button(new Rect(Screen.width/2 -40,Screen.height/2 +50,100,30),"Play")) {
+	if (GUI.Button(new Rect(Screen.width/2 -50,Screen.height/2 +50,100,30),"Play")) {
 		Application.LoadLevel(1);
 	}
 
 
-	if (GUI.Button(new Rect(Screen.width/2 -40,Screen.height/2 +100,100,30),"Settings")) {
+	if (GUI.Button(new Rect(Screen.width/2 -50,Screen.height/2 +100,100,30),"Game Rules")) {
 	Application.LoadLevel(5);
 }
 
-	if (GUI.Button(new Rect(Screen.width/2 -40,Screen.height/2 +150,100,30),"Quit")) {
+	if (GUI.Button(new Rect(Screen.width/2 -50,Screen.height/2 +150,100,30),"Quit")) {
 		Application.Quit();
 }
 

@@ -13,12 +13,12 @@ public class GameOver : MonoBehaviour {
 	void OnGUI () {
 		// Retry starter spillet forfra
 		GUI.contentColor = Color.yellow;
-		if (GUI.Button(new Rect(Screen.width/2 -40,Screen.height/2 +50,100,30),"Retry?")) {
+		if (GUI.Button(new Rect(Screen.width/2 -50,Screen.height/2 +50,100,30),"Retry?")) {
 			Application.LoadLevel(1);
 		}
 
 		//Exit button
-		if (GUI.Button(new Rect(Screen.width/2 -40,Screen.height/2 +100,100,30),"Quit")) {
+		if (GUI.Button(new Rect(Screen.width/2 -50,Screen.height/2 +100,100,30),"Quit")) {
 		Application.Quit();
 	}
   }

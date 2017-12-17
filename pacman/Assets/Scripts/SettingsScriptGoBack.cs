@@ -12,7 +12,7 @@ public class SettingsScriptGoBack : MonoBehaviour {
 	void OnGUI () {
 		GUI.contentColor = Color.yellow;
 		//Go back button
-	if (GUI.Button(new Rect(Screen.width/2 -40,Screen.height/2 +100,100,30),"Back")) {
+	if (GUI.Button(new Rect(Screen.width/2 -50,Screen.height/2 +100,100,30),"Back")) {
 	Application.LoadLevel(0);
 }
 

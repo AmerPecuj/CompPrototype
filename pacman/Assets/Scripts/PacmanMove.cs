@@ -14,6 +14,7 @@ public class PacmanMove : MonoBehaviour {
     public Text countText;
     public Text winText;
     private int count;
+    private bool won = false;
 
     void Start() {
         dest = transform.position;
@@ -118,6 +119,23 @@ void FixedUpdate() {
       if (count >= 327)
       {
           winText.text = "You Win!";
+          won = true;
+      }
+    }
+      }
+
+      // Update is called once per frame
+      void OnGUI () {
+        if (won == true){
+        // Retry starter spillet forfra
+        GUI.contentColor = Color.yellow;
+        if (GUI.Button(new Rect(Screen.width/2 -50,Screen.height -150,100,30),"Play Again?")) {
+          Application.LoadLevel(1);
+        }
+
+        //Exit button
+        if (GUI.Button(new Rect(Screen.width/2 -50,Screen.height -100,100,30),"Quit")) {
+        Application.Quit();
       }
     }
       }
